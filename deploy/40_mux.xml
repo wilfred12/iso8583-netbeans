@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : 40_mux.xml
+    Created on : April 20, 2011, 10:16 AM
+    Author     : Computer
+    Description:
+        Purpose of the document follows.
+-->
+
+ <mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="mymux">
+<in>receive</in>
+<out>send</out>
+</mux>

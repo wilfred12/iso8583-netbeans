@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<server class="org.jpos.q2.iso.QServer" logger="Q2" name="DownlinkSSL">
+<attr name="port" type="java.lang.Integer">1234</attr>
+<attr name="maxSessions" type="java.lang.Integer">50</attr>
+<attr name="minSessions" type="java.lang.Integer">10</attr>
+
+
+<channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" 
+packager="org.jpos.iso.packager.GenericPackager">
+
+<property name="packager-config" value="conf/iso87ascii.xml"/>
+</channel>
+<request-listener class="test.Listener" logger="Q2" realm="info"/>
+
+
+
+</server>
+
+
+

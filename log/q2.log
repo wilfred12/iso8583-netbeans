@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 04:44:20 GMT 2012.414">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:44:20 GMT 2012.420">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:44:20 GMT 2012.427">
+  <warn>
+    deploy
+    <exception name="Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.">
+    org.jdom.input.JDOMParseException: Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:465)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:44:20 GMT 2012.490">
+  <warn>
+    Tidying C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml out of the way, by adding .BAD
+    It will be called: C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:44:20 GMT 2012.492">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 04:44:20 GMT 2012.504">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 04:44:20 GMT 2012.505">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1184504
+      totalMemory=2031616
+      inUseMemory=847112
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=4
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+    </threads>
+    --- name-registrar ---
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:03 GMT 2012.809">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:03 GMT 2012.814">
+  <warn>
+    deploy
+    <exception name="Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.">
+    org.jdom.input.JDOMParseException: Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:465)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:07 GMT 2012.455">
+  <warn>
+    Tidying C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml out of the way, by adding .BAD
+    It will be called: C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:25 GMT 2012.227">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:25 GMT 2012.233">
+  <warn>
+    deploy
+    <exception name="Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.">
+    org.jdom.input.JDOMParseException: Error on line 1 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:465)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:689)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:750)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:664)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDispatcher.dispatch(XMLDocumentScannerImpl.java:845)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 04:46:25 GMT 2012.277">
+  <warn>
+    Tidying C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml out of the way, by adding .BAD
+    It will be called: C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:50:38 GMT 2012.311">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:50:38 GMT 2012.315">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:50:38 GMT 2012.324">
+  <warn>
+    deploy
+    <exception name="Error on line 17 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The element type "server" must be terminated by the matching end-tag "</server>".">
+    org.jdom.input.JDOMParseException: Error on line 17 of document file:/C:/Users/phenom/Documents/NetBeansProjects/iso8583/deploy/11_serverport.xml: The element type "server" must be terminated by the matching end-tag "</server>".
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:465)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: org.xml.sax.SAXParseException: The element type "server" must be terminated by the matching end-tag "</server>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanEndElement(XMLNSDocumentScannerImpl.java:696)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1685)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	... 6 more
+Caused by: org.xml.sax.SAXParseException: The element type "server" must be terminated by the matching end-tag "</server>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:236)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:215)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:386)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:316)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanEndElement(XMLNSDocumentScannerImpl.java:696)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1685)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1242)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:453)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:810)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:789)
+	at org.jpos.q2.Q2.deploy(Q2.java:419)
+	at org.jpos.q2.Q2.deploy(Q2.java:255)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:50:38 GMT 2012.395">
+  <warn>
+    Tidying C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml out of the way, by adding .BAD
+    It will be called: C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml.BAD see log above for detail of problem.
+  </warn>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:50:38 GMT 2012.400">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:50:38 GMT 2012.407">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:50:38 GMT 2012.408">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1190664
+      totalMemory=2031616
+      inUseMemory=840952
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=4
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+    </threads>
+    --- name-registrar ---
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:52:50 GMT 2012.147">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:52:50 GMT 2012.152">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:52:50 GMT 2012.156">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:52:50 GMT 2012.161">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1285256
+      totalMemory=2031616
+      inUseMemory=746360
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=4
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+    </threads>
+    --- name-registrar ---
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:53:24 GMT 2012.428">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:53:24 GMT 2012.432">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:53:24 GMT 2012.444">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.QServer" at="Fri Aug 03 05:53:24 GMT 2012.503">
+  <warn>
+    error starting service
+    <iso-exception>
+      org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)))
+      <iso-exception>
+        org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))
+        <iso-exception>
+          java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)
+          <nested-exception>
+          java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:905)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:872)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:282)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDispatcher.dispatch(XMLDocumentScannerImpl.java:1021)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+          </nested-exception>
+          org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:905)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:872)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:282)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDispatcher.dispatch(XMLDocumentScannerImpl.java:1021)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+        </iso-exception>
+        org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)))
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:144)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:905)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:872)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:282)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDispatcher.dispatch(XMLDocumentScannerImpl.java:1021)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+      </iso-exception>
+      org.jpos.core.ConfigurationException: org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))) (org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))))
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:373)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)))
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:144)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\conf\genericpackager.dtd (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:905)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:872)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:282)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDispatcher.dispatch(XMLDocumentScannerImpl.java:1021)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:368)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:834)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.QServer.newChannel(QServer.java:83)
+	at org.jpos.q2.iso.QServer.initServer(QServer.java:91)
+	at org.jpos.q2.iso.QServer.startService(QServer.java:150)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </iso-exception>
+  </warn>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:53:24 GMT 2012.834">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:53:24 GMT 2012.835">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1242720
+      totalMemory=2031616
+      inUseMemory=788896
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=4
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:54:01 GMT 2012.532">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:01 GMT 2012.540">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:01 GMT 2012.553">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:01 GMT 2012.645">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:01 GMT 2012.650">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1052504
+      totalMemory=2031616
+      inUseMemory=979112
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 05:54:01 GMT 2012.707">
+  <iso-server>
+    listening on port 6501
+  </iso-server>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:31 GMT 2012.797">
+  <trace>
+    undeploying:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:31 GMT 2012.799">
+  <info>
+    undeployed:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:54:38 GMT 2012.809">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:38 GMT 2012.815">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:38 GMT 2012.828">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:38 GMT 2012.909">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 05:54:38 GMT 2012.918">
+  <iso-server>
+    listening on port 6501
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:38 GMT 2012.922">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1007112
+      totalMemory=2031616
+      inUseMemory=1024504
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 05:54:57 GMT 2012.92">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:57 GMT 2012.97">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 05:54:57 GMT 2012.110">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:57 GMT 2012.214">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 05:54:57 GMT 2012.222">
+  <iso-server>
+    listening on port 6501
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 05:54:57 GMT 2012.223">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1007112
+      totalMemory=2031616
+      inUseMemory=1024504
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 07:10:37 GMT 2012.977">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:10:37 GMT 2012.984">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:10:37 GMT 2012.997">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:10:38 GMT 2012.127">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 07:10:38 GMT 2012.138">
+  <iso-server>
+    listening on port 6501
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:10:38 GMT 2012.148">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1006600
+      totalMemory=2031616
+      inUseMemory=1025016
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server.session/10.63.10.56" at="Fri Aug 03 07:11:11 GMT 2012.538">
+  <session-start/>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 07:23:24 GMT 2012.205">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:23:24 GMT 2012.210">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:23:24 GMT 2012.222">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:23:24 GMT 2012.293">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:23:24 GMT 2012.296">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1041992
+      totalMemory=2031616
+      inUseMemory=989624
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 07:23:24 GMT 2012.306" lifespan="5ms">
+  <iso-server>
+    listening on port 6501
+  </iso-server>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Fri Aug 03 07:23:37 GMT 2012.728">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:23:37 GMT 2012.733">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Fri Aug 03 07:23:37 GMT 2012.744">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:23:37 GMT 2012.814">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Fri Aug 03 07:23:37 GMT 2012.817">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1041992
+      totalMemory=2031616
+      inUseMemory=989624
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Fri Aug 03 07:23:37 GMT 2012.828" lifespan="6ms">
+  <iso-server>
+    listening on port 1234
+  </iso-server>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Tue Aug 14 07:54:47 GMT 2012.45">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:54:47 GMT 2012.54">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\10_chn.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:54:47 GMT 2012.70">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:54:47 GMT 2012.86">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\40_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:54:47 GMT 2012.95">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Tue Aug 14 07:54:47 GMT 2012.113">
+  <warn>
+    error starting service
+    <iso-exception>
+      org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)))
+      <iso-exception>
+        org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))
+        <iso-exception>
+          java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)
+          <nested-exception>
+          java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+          </nested-exception>
+          org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+        </iso-exception>
+        org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)))
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:144)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+      </iso-exception>
+      org.jpos.core.ConfigurationException: org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))) (org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))))
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:373)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.core.ConfigurationException: org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)) (org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)))
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:144)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:org.jpos.iso.ISOException: java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified) (java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified))
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:178)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+Nested:java.io.FileNotFoundException: C:\Users\phenom\Documents\NetBeansProjects\iso8583\cfg\packager\iso87ascii.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.jpos.iso.packager.GenericPackager.readFile(GenericPackager.java:175)
+	at org.jpos.iso.packager.GenericPackager.setConfiguration(GenericPackager.java:138)
+	at org.jpos.q2.QFactory.setConfiguration(QFactory.java:369)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:211)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:71)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:91)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at com.sun.jmx.mbeanserver.StandardMetaDataImpl.invoke(StandardMetaDataImpl.java:414)
+	at com.sun.jmx.mbeanserver.MetaDataImpl.invoke(MetaDataImpl.java:220)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:815)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:784)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:178)
+	at org.jpos.q2.Q2.start(Q2.java:459)
+	at org.jpos.q2.Q2.deploy(Q2.java:271)
+	at org.jpos.q2.Q2.run(Q2.java:164)
+	at java.lang.Thread.run(Thread.java:595)
+    </iso-exception>
+  </warn>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:54:48 GMT 2012.136">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:54:48 GMT 2012.138">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1335488
+      totalMemory=2031616
+      inUseMemory=696128
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=15
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-3,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      mux.mymux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Tue Aug 14 07:54:48 GMT 2012.197">
+  <iso-server>
+    listening on port 1234
+  </iso-server>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:05 GMT 2012.667">
+  <trace>
+    undeploying:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\10_chn.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:05 GMT 2012.667">
+  <info>
+    undeployed:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\10_chn.xml
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Tue Aug 14 07:55:08 GMT 2012.792">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:08 GMT 2012.797">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\10_chn.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:08 GMT 2012.805">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:08 GMT 2012.818">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\40_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:55:08 GMT 2012.826">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:55:08 GMT 2012.908">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:55:08 GMT 2012.910">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=983872
+      totalMemory=2031616
+      inUseMemory=1047744
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=17
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-send,5,main]
+            Thread[channel-receiver-receive,5,main]
+            Thread[Thread-5,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      mux.mymux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      channel.chn: org.jpos.iso.channel.ASCIIChannel
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      chn: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Tue Aug 14 07:55:08 GMT 2012.929" lifespan="17ms">
+  <iso-server>
+    listening on port 1234
+  </iso-server>
+</log>
+<log realm="channel/10.63.10.56:1234" at="Tue Aug 14 07:55:09 GMT 2012.408" lifespan="522ms">
+  <connect>
+    10.63.10.56:1234
+  </connect>
+</log>
+<log realm="DownlinkSSL.server.session/10.63.10.56" at="Tue Aug 14 07:55:09 GMT 2012.413">
+  <session-start/>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Tue Aug 14 07:56:11 GMT 2012.454">
+  <info>
+    Q2 started, deployDir=C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:56:11 GMT 2012.460">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\10_chn.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:56:11 GMT 2012.468">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\11_serverport.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:56:11 GMT 2012.481">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\40_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Aug 14 07:56:11 GMT 2012.490">
+  <info>
+    deploy:C:\Users\phenom\Documents\NetBeansProjects\iso8583\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:56:11 GMT 2012.586">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="DownlinkSSL.server" at="Tue Aug 14 07:56:11 GMT 2012.589">
+  <iso-server>
+    listening on port 1234
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Aug 14 07:56:11 GMT 2012.590">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=1450048
+      totalMemory=2031616
+      inUseMemory=581568
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=17
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-send,5,main]
+            Thread[channel-receiver-receive,5,main]
+            Thread[Thread-5,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+            Thread[PooledThread-1,5,ThreadPool-0]
+            Thread[PooledThread-2,5,ThreadPool-0]
+            Thread[PooledThread-3,5,ThreadPool-0]
+            Thread[PooledThread-4,5,ThreadPool-0]
+            Thread[PooledThread-5,5,ThreadPool-0]
+            Thread[PooledThread-6,5,ThreadPool-0]
+            Thread[PooledThread-7,5,ThreadPool-0]
+            Thread[PooledThread-8,5,ThreadPool-0]
+            Thread[PooledThread-9,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      mux.mymux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      channel.chn: org.jpos.iso.channel.ASCIIChannel
+      server.DownlinkSSL: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.: org.jpos.util.Logger
+      chn: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="channel/10.63.10.56:1234" at="Tue Aug 14 07:56:12 GMT 2012.78" lifespan="514ms">
+  <connect>
+    10.63.10.56:1234
+  </connect>
+</log>
+<log realm="DownlinkSSL.server.session/10.63.10.56" at="Tue Aug 14 07:56:12 GMT 2012.80">
+  <session-start/>
+</log>
