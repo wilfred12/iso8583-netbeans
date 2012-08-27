@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chn name="chn" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
 
-       <!-- <channel class="org.jpos.iso.channel.NCCChannel" logger="Q2" packager="org.jpos.iso.packager.GenericPackager" header="6000000001">
-        <property name="packager-config" value="cfg/packager/iso87binary.xml" />
-       <property name="host" value="127.0.0.1"/>
-        <property name="port" value="4000" /> -->
+  
 
 <channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" packager="org.jpos.iso.packager.GenericPackager" >
       <!--  <property name="packager-config" value="cfg/packager/iso87ascii.xml" /> -->
