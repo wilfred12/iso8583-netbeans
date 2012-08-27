@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE isopackager SYSTEM "genericpackager.dtd">
 
-<!-- ISO 8583:1987 (ASCII) field descriptions for GenericPackager -->
+<!-- BASE24 field descriptions for GenericPackager -->
 
 <isopackager>
   <isofield
@@ -81,7 +81,7 @@
       class="org.jpos.iso.IFA_NUMERIC"/>
   <isofield
       id="15"
-      length="8"
+      length="4"
       name="DATE, SETTLEMENT"
       class="org.jpos.iso.IFA_NUMERIC"/>
   <isofield
@@ -211,7 +211,7 @@
       class="org.jpos.iso.IF_CHAR"/>
   <isofield
       id="41"
-      length="8"
+      length="16"
       name="CARD ACCEPTOR TERMINAL IDENTIFICACION"
       class="org.jpos.iso.IF_CHAR"/>
   <isofield
@@ -486,7 +486,7 @@
       class="org.jpos.iso.IF_CHAR"/>
   <isofield
       id="96"
-      length="16"
+      length="8"
       name="MESSAGE SECURITY CODE"
       class="org.jpos.iso.IFA_BINARY"/>
   <isofield
@@ -611,39 +611,39 @@
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="121"
-      length="999"
-      name="RESERVED PRIVATE USE"
+      length="23"
+      name="S-121 BASE24-POS AUTH INDICATORS"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="122"
-      length="999"
-      name="RESERVED PRIVATE USE"
-      class="org.jpos.iso.IFA_LLLCHAR"/>
+      length="14"
+      name="S-122 CARD ISSUER IDENTIFICATION CODE"
+      class="org.jpos.iso.IFA_LLLNUM"/>
   <isofield
       id="123"
-      length="999"
-      name="RESERVED PRIVATE USE"
+      length="153"
+      name="S-123 CRYPTOGRAFIC SERVICE MESSAGE"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="124"
-      length="999"
-      name="RESERVED PRIVATE USE"
+      length="12"
+      name="S-124 DEPOSIT TYPE OR BATCH/SHIFT DATA"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="125"
-      length="999"
-      name="RESERVED PRIVATE USE"
+      length="15"
+      name="S-125 ATM ACCT INDICATOR OR POS SETTLEMENT DATA"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="126"
       length="999"
-      name="RESERVED PRIVATE USE"
+      name="S-126 ATM ADDIC. DATA OR POS PRE-AUTH/CHARGEBACK"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="127"
-      length="999"
-      name="RESERVED PRIVATE USE"
-      class="org.jpos.iso.IFA_LLLCHAR"/>
+      length="99"
+      name="BASE24-POS User Data"
+      class="org.jpos.iso.IFA_LLCHAR"/>
   <isofield
       id="128"
       length="8"
