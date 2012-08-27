@@ -1,4 +1,4 @@
-// Copyright (c) 2010 MicroPay Nusantara. All Rights Reserved.
+
 package org.mut.inf.participant;
 
 import java.io.Serializable;

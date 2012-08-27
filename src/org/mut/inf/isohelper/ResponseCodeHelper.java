@@ -10,6 +10,7 @@ public class ResponseCodeHelper {
 
     // EDC server Err definition
     public static final String SUCCESS = "00";
+    public static final String TIMEOUT = "O1";
     public static final String AMOUNT_NOT_MATCH = "M0";
     public static final String UNCONNECTED_CHANNEL1 = "M1";
     public static final String UNCONNECTED_CHANNEL2 = "M2";
