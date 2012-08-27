@@ -6950,3 +6950,118 @@ Caused by: org.xml.sax.SAXParseException: Document root element "beans", must ma
       channel.chn: org.jpos.iso.channel.ASCIIChannel
   </info>
 </log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.390">
+  <info>
+    Q2 started, deployDir=D:\svn\adi\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.390">
+  <info>
+    deploy:D:\svn\adi\deploy\10_chn.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.406">
+  <info>
+    deploy:D:\svn\adi\deploy\11_server2.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.421">
+  <info>
+    deploy:D:\svn\adi\deploy\20_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.453">
+  <info>
+    deploy:D:\svn\adi\deploy\40_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Aug 27 17:15:33 GMT+07:00 2012.453">
+  <info>
+    deploy:D:\svn\adi\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    txn-0 start
+  </info>
+</log>
+<log realm="srv-hexa-len.server" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <iso-server>
+    listening on port 8686
+  </iso-server>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    txn-1 start
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    txn-2 start
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    txn-3 start
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    txn-4 start
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Aug 27 17:15:33 GMT+07:00 2012.562">
+  <info>
+    <release>@version@ @revision@</release>
+    <memory>
+       freeMemory=4044408
+      totalMemory=5177344
+      inUseMemory=1132936
+    </memory>
+    <threads>
+            delay=0 ms
+          threads=14
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[Thread-0,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-send,5,main]
+            Thread[channel-receiver-receive,5,main]
+            Thread[Thread-5,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txn-0,5,main]
+            Thread[txn-1,5,main]
+            Thread[txn-2,5,main]
+            Thread[txn-3,5,main]
+            Thread[txn-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[PooledThread-0,5,ThreadPool-0]
+    </threads>
+    --- name-registrar ---
+      tspace:org.jpos.transaction.TransactionManager@111a3ac: org.jpos.space.TSpace
+        <key>$TAIL</key>
+        <keycount>1</keycount>
+      mux.mymux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.: org.jpos.util.Logger
+      tspace:default: org.jpos.space.TSpace
+      logger.Q2: org.jpos.util.Logger
+      chn: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      server.srv-hexa-len: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      txn: org.jpos.transaction.TransactionManager
+      channel.chn: org.jpos.iso.channel.ASCIIChannel
+  </info>
+</log>
