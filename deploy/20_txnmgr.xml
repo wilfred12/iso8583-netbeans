@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<txn name="txn" class="org.jpos.transaction.TransactionManager" logger="Q2">
+    <property name="queue" value="TXNMGR" />
+    <property name="debug" value="true" />
+    <property name="sessions" value="5" />
+
+    <participant class="org.bad.inf.txparticipant.Switch" logger="Q2">
+        <property name="0800.130000" value="receiver   sendresponse" comment="SIGN ON"/>
+        <property name="0100.260000" value="receiver   sendresponse Lsendresponse" comment="Banking Info saldo"/>
+ 
+    </participant>
+
+
+  <group name="receiver">
+            <participant class="org.mut.inf.participant.ReceiverClass" logger="Q2">
+        </participant>
+    </group>
+    
+    
+    <group name="sendresponse">
+
+            <participant class="org.mut.inf.txparticipant.SendResponse" logger="Q2">
+        </participant>
+
+
+    </group>
+
+
+
+    
+</txn>

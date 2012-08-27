@@ -13,8 +13,6 @@
         <property name="port" value="1234" />
  
 
-     
-
     </channel>
     <in>send</in>
     <out>receive</out>
