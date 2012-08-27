@@ -7,8 +7,8 @@
     <property name="sessions" value="5" />
 
     <participant class="org.bad.inf.txparticipant.Switch" logger="Q2">
-        <property name="0800.130000" value="receiver   sendresponse" comment="SIGN ON"/>
-        <property name="0100.260000" value="receiver   sendresponse Lsendresponse" comment="Banking Info saldo"/>
+        <property name="0800.130000" value="receiver onltrans  sendresponse" comment="SIGN ON"/>
+        <property name="0100.260000" value="receiver  onltrans sendresponse Lsendresponse" comment="Banking Info saldo"/>
  
     </participant>
 
@@ -18,10 +18,14 @@
         </participant>
     </group>
     
-    
+      <group name="onltrans">
+
+            <participant class="org.bad.inf.txparticipant.ONLTrans" logger="Q2">
+        </participant>
+    </group>
     <group name="sendresponse">
 
-            <participant class="org.mut.inf.txparticipant.SendResponse" logger="Q2">
+            <participant class="org.mut.inf.participant.SendResponse" logger="Q2">
         </participant>
 
 

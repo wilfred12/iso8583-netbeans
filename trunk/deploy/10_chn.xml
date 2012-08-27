@@ -5,7 +5,7 @@
 
 <channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" packager="org.jpos.iso.packager.GenericPackager" >
       <!--  <property name="packager-config" value="cfg/packager/iso87ascii.xml" /> -->
-        <property name="packager-config" value="conf/iso87ascii.xml" />
+        <property name="packager-config" value="conf/packager/iso87ascii.xml" />
      
      
  
