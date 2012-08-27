@@ -21,42 +21,13 @@
        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
-        <property name="configLocation" value="/cfg/hibernate.cfg.xml"/>
+        
     </bean>
 
     <bean id="transactionManager"
           class="org.springframework.orm.hibernate3.HibernateTransactionManager"
           p:sessionFactory-ref="sessionFactory"/>
 
-    <bean id="terminalDAO" class="org.bad.inf.dao.TerminalDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
-
-    <bean id="TLogDAO" class="org.bad.inf.dao.TLogDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
-
-    <bean id="TMappingDAO" class="org.bad.inf.dao.TMappingDao">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
-
-    <bean id="TReprintDAO" class="org.bad.inf.dao.TReprintDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
- 
-   <bean id="TSetDAO" class="org.bad.inf.dao.TSetDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
     
-    
-   <bean id="TLogConnectDAO" class="org.bad.inf.dao.TLogConnectDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
- <bean id="TTerminalSignOnDAO" class="org.bad.inf.dao.TTerminalSignOnDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
- <bean id="TFeePulsa_GroupDAO" class="org.bad.inf.dao.TFeePulsa_GroupDAO">
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
    
 </beans>
