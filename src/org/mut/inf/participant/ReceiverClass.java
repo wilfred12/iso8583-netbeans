@@ -24,7 +24,7 @@ public class ReceiverClass implements TransactionParticipant {
     }
 
 
-    @Override
+   
     public int prepare(long l, Serializable srlzbl) {
         Context ctx = (Context) srlzbl;
         ISOMsg m = (ISOMsg) ctx.get(ContextHelper.CONTEXT_REQ);
@@ -36,11 +36,11 @@ public class ReceiverClass implements TransactionParticipant {
         return result;     
     }
 
-    @Override
+    
     public void commit(long l, Serializable srlzbl) {
     }
 
-    @Override
+    
     public void abort(long l, Serializable srlzbl) {
     }
 

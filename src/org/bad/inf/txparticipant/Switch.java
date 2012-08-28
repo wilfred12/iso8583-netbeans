@@ -23,6 +23,7 @@ public class Switch implements GroupSelector, Configurable {
         log = Log.getLog("Q2", getClass().getName());
     }
 
+    
     public String select(long l, Serializable srlzbl) {
         Context ctx = (Context) srlzbl;
         ISOMsg m = (ISOMsg) ctx.get(ContextHelper.CONTEXT_REQ);
@@ -58,16 +59,20 @@ public class Switch implements GroupSelector, Configurable {
 
     }
 
+   
     public int prepare(long l, Serializable srlzbl) {
         return PREPARED;
     }
 
+    
     public void commit(long l, Serializable srlzbl) {
     }
 
+    
     public void abort(long l, Serializable srlzbl) {
     }
 
+    
     public void setConfiguration(Configuration c) throws ConfigurationException {
         this.cfg = c;
     }
