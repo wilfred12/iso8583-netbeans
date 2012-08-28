@@ -8,7 +8,7 @@
 
     <participant class="org.bad.inf.txparticipant.Switch" logger="Q2">
         <property name="0800.130000" value="receiver onltrans  sendresponse" comment="SIGN ON"/>
-        <property name="0100.260000" value="receiver  onltrans sendresponse Lsendresponse" comment="Banking Info saldo"/>
+        <property name="0100.260000" value="receiver  onltrans sendresponse" comment="Banking Info saldo"/>
  
     </participant>
 
