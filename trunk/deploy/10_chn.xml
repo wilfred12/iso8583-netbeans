@@ -10,7 +10,7 @@
      
  
     <property name="host" value="10.63.10.56"/>
-        <property name="port" value="1234" />
+        <property name="port" value="64000" />
  
 
     </channel>
