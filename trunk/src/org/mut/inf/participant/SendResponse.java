@@ -26,6 +26,7 @@ public class SendResponse implements AbortParticipant {
         log = Log.getLog("Q2", getClass().getName());
     }
 
+    
     public int prepare(long l, Serializable srlzbl) {
         Context ctx = (Context)srlzbl;
         ISOSource source = (ISOSource)ctx.get(ContextHelper.CONTEXT_SRC);
@@ -37,14 +38,17 @@ public class SendResponse implements AbortParticipant {
             return PREPARED;
     }
 
+   
     public int prepareForAbort(long l, Serializable srlzbl) {
         return prepare(l, srlzbl);
     }
 
+    
     public void commit(long l, Serializable srlzbl) {
         sendResponse(l, (Context)srlzbl);
     }
 
+   
     public void abort(long l, Serializable srlzbl) {
         
         sendResponse(l, (Context)srlzbl);

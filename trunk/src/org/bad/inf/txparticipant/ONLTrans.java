@@ -36,13 +36,16 @@ public class ONLTrans implements AbortParticipant {
     Log log;
   
 
+    
     public void commit(long l, Serializable srlzbl) {
     }
 
+    
     public void abort(long l, Serializable srlzbl) {
 
     }
 
+    
     public int prepareForAbort(long l, Serializable srlzbl) {
 
               Context ctx = (Context) srlzbl;
@@ -57,6 +60,7 @@ public class ONLTrans implements AbortParticipant {
         return result;
     }
 
+  
     public int prepare(long l, Serializable srlzbl) {
 
         Context ctx = (Context) srlzbl;
@@ -73,7 +77,7 @@ public class ONLTrans implements AbortParticipant {
             mux = (QMUX) NameRegistrar.get("mux.mymux");
 
 
-            m.setHeader(ISOUtil.hex2byte(""));
+         //   m.setHeader(ISOUtil.hex2byte(""));
             ISOMsg r = mux.request(m, 120000);
 
 
