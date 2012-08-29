@@ -51,7 +51,7 @@ public class ONLTrans implements AbortParticipant {
               Context ctx = (Context) srlzbl;
         int result = 0;
         ISOMsg m = (ISOMsg) ctx.get(ContextHelper.CONTEXT_RSP);
-        //ApplicationContext appContext = (ApplicationContext) ctx.get(ContextHelper.CONTEXT_SPRING);
+        ApplicationContext appContext = (ApplicationContext) ctx.get(ContextHelper.CONTEXT_SPRING);
 
         Space sp = SpaceFactory.getSpace();
 
@@ -68,7 +68,7 @@ public class ONLTrans implements AbortParticipant {
         ISOMsg m = (ISOMsg) ctx.get(ContextHelper.CONTEXT_RSP);
         ApplicationContext appContext = (ApplicationContext) ctx.get(ContextHelper.CONTEXT_SPRING);
         Space sp = SpaceFactory.getSpace();
-        // LogForward lf = new LogForward();
+      
 
 
 
