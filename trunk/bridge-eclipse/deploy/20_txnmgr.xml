@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<txn name="txn" class="org.jpos.transaction.TransactionManager" logger="Q2">
+    <property name="queue" value="TXNMGR" />
+    <property name="debug" value="true" />
+    <property name="sessions" value="5" />
+
+    <participant class="org.bad.inf.txparticipant.Switch" logger="Q2">
+        <property name="0800" value="receiver onltrans  sendresponse" comment="echo"/>
+        <property name="0200" value="receiver  onltrans sendresponse" comment="Inquery and Posting"/>
+ 		<property name="0400" value="receiver  onltrans sendresponse" comment="Reversal"/>
+ 		
+ 		 <property name="0800" value="receiver onltrans1  sendresponse" comment="echo"/>
+        <property name="0200" value="receiver  onltrans1 sendresponse" comment="Inquery and Posting"/>
+ 		<property name="0400" value="receiver  onltrans1 sendresponse" comment="Reversal"/>
+    </participant>
+
+
+  <group name="receiver">
+            <participant class="org.mut.inf.participant.ReceiverClass" logger="Q2">
+        </participant>
+    </group>
+    
+      <group name="onltrans">
+
+            <participant class="org.bad.inf.txparticipant.ONLTrans" logger="Q2">
+        </participant>
+    </group>
+    
+    <group name="onltrans1">
+
+            <participant class="org.bad.inf.txparticipant.ONLTrans1" logger="Q2">
+        </participant>
+    </group>
+    
+    
+    <group name="sendresponse">
+
+            <participant class="org.mut.inf.participant.SendResponse" logger="Q2">
+        </participant>
+
+
+    </group>
+
+
+
+    
+</txn>
