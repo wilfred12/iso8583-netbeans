@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<server name="srv-hexa-len" class="org.jpos.q2.iso.QServer" logger="Q2" >
+    <attr name="port" type="java.lang.Integer">54300</attr>
+    <attr name="minSessions" type="java.lang.Integer">1</attr>
+    <attr name="maxSessions" type="java.lang.Integer">150</attr>
+<!--  <channel name="ncc.channel" class="org.jpos.iso.channel.NCCChannel" packager="org.jpos.iso.packager.ISO87BPackager" header="6000010000" logger="Q2" /> -->
+    <channel class="org.jpos.iso.channel.NACChannel" logger="Q2" packager="org.jpos.iso.packager.GenericPackager">
+     <property name="packager-config" value="conf/packager/iso87ascii.xml" />
+     </channel>
+
+    <request-listener class="org.bad.inf.InfoListener" logger="Q2" realm="info" />
+</server>

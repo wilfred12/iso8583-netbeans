@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chn name="chn" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
+
+  
+
+<channel class="org.jpos.iso.channel.NACChannel" logger="Q2" packager="org.jpos.iso.packager.GenericPackager" >
+      <!--  <property name="packager-config" value="cfg/packager/iso87ascii.xml" /> -->
+        <property name="packager-config" value="conf/packager/iso87ascii.xml" />
+     
+     
+ 
+    <property name="host" value="10.63.10.56"/>
+        <property name="port" value="64000" />
+ 
+
+    </channel>
+    <in>send</in>
+    <out>receive</out>
+    <reconnect-delay>10000</reconnect-delay>
+</chn>
+
+
+
+
