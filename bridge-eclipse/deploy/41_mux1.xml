@@ -8,8 +8,8 @@
         Purpose of the document follows.
 -->
 
- <mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="mymux">
-<in>receive</in>
-<out>send</out>
+ <mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="mymux1">
+<in>receive1</in>
+<out>send1</out>
 <key>11,63</key>
 </mux>
