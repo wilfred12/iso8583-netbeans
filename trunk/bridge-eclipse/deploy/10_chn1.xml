@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chn name="chn" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
+<chn name="chn1" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
 
   
 
@@ -10,12 +10,12 @@
      
  
     <property name="host" value="10.63.10.122"/>
-        <property name="port" value="64000" />
+        <property name="port" value="64001" />
  
 
     </channel>
-    <in>send</in>
-    <out>receive</out>
+    <in>send1</in>
+    <out>receive1</out>
     <reconnect-delay>10000</reconnect-delay>
 </chn>
 
